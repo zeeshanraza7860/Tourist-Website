@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=montserrat:400,500,600,700&dispaly=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'montserrat',sans-serif;
+}
+body{
+    background-color: #23414c;
+}
+.navbar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px,40px;
+    color: whitesmoke;
+}
+.logo{
+    cursor: pointer;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+.navlinks li{
+    margin: 0px 25px;
+
+}
+.navlinks li a{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition:all 0.3s ease-in;
+}
+.navlinks li a:hover{
+    color: #f8b600;
+    border-bottom:2px solid #f8b600;
+}
+.btn{
+    margin: 0px 25px;
+    padding: 8px 15px;
+    background-color: #f8b600;
+    border-radius: 20%;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background: #fcc429;
+}
+header{
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.5)
+        ),
+        url("image.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+    margin-top: 9px;
+    margin-bottom: 350px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 5vmin;
+    text-transform: uppercase;
+    margin-top: 250px;
+}
+.header-content h1{
+    font-size: 9.2vmin;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.header-content p{
+    font-size: 4vmin;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 30px;
+
+}
+.headerbtn{
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 2.7vmin;
+}
+.headerbtn:hover{
+    background: transparent;
+    border: 1px solid whitesmoke;
+}
+.menubtn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.form-container{
+    width: 350px;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    background-color: wheat;
+    /* text-align: center; */
+    padding: 25px;
+    
+}
+.form-container h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.form-group label{
+    display: block;
+
+}
